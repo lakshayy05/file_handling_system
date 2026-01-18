@@ -1,36 +1,61 @@
-# file_handling_system
-A simple Python project that performs basic file handling operations such as creating, reading, updating, and deleting files using Python’s built-in modules like os and pathlib.  This project is console-based and helps beginners understand how file management works in Python.
+# File Handling System 📂
 
-🚀 **Features**
+A lightweight, command-line interface (CLI) tool built with Python to perform efficient file management operations. This project demonstrates core **CRUD (Create, Read, Update, Delete)** functionalities using Python's `pathlib` and `os` modules.
 
-✔️ Create Files
+## 🚀 Features
 
-Create any file with a custom name
+* **File Creation:** Create new text files and write initial content immediately.
+* **Read Functionality:** View the contents of existing files directly in the terminal.
+* **Smart Updates:**
+    * **Rename:** Change filenames easily.
+    * **Overwrite:** Completely replace file content.
+    * **Append:** Add new data to the end of a file without losing existing content.
+* **Deletion:** Safely remove files from the directory.
+* **Directory Listing:** Automatically lists all files in the current directory and subdirectories to help users select the correct file.
 
-Write content to the new file
+## 🛠️ Technologies Used
 
-✔️ Read Files
+* **Language:** Python 
+* **Modules:**
+    * `pathlib` (For object-oriented filesystem paths)
+    * `os` (For interacting with the operating system)
 
-Read data from existing files
+## 💻 How to Run
 
-Display file content in the terminal
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/LakshayGarg/File-Handling-System.git](https://github.com/LakshayGarg/File-Handling-System.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd File-Handling-System
+    ```
+3.  **Run the script:**
+    ```bash
+    python main.py
+    ```
 
-✔️ Update Files
+## 📖 Usage
 
-Rename a file
+Upon running the script, you will be presented with a menu:
 
-Overwrite the file
+1.  **Press 1** to Create a new file.
+2.  **Press 2** to Read an existing file.
+3.  **Press 3** to Update a file (Rename, Overwrite, or Append).
+4.  **Press 4** to Delete a file.
 
-Append new content to the file
+Follow the on-screen prompts to enter file names and content. The system will automatically display the list of available files before every operation for convenience.
 
-✔️ Delete Files
+## 🔮 Future Improvements
 
-Delete a file from the system safely
+* Implement exception handling for specific error types (e.g., `FileNotFoundError`).
+* Add a Graphical User Interface (GUI) using Tkinter.
+* Organize code into a class-based structure for better modularity.
 
-🛠️ Technologies Used
+## 👤 Author
 
-Python 3
+**Lakshay Garg**
+* [GitHub Profile](https://github.com/lakshayy05)
 
-os module
-
-pathlib module
+---
+*This project is part of my journey in mastering Python and Software Development.*
